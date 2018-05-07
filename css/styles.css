@@ -1,0 +1,130 @@
+body {
+    margin-top: 140px;
+    color: #4a4a4a;
+}
+
+.night {
+    background: url("../imgs/rsz_sky_night.jpg") no-repeat center center fixed;
+    color: white !important;
+}
+
+.day {
+    background: url("../imgs/rsz_sky_day.jpg") no-repeat center center fixed;
+    
+}
+
+.day, .night {
+    background-size: cover;
+}
+
+#icon {
+    width: 90px;
+    height: 90px;
+}
+
+.icon-hide {
+    display: none;
+}
+
+#temperatureType {
+    color: #6f6fce;
+    text-decoration: none;
+}
+
+img#loading {
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    bottom:0px;
+    height:17%;
+    right:0%;
+    left:0%;
+    position:fixed!important;
+    position:absolute;
+    width: 100%;
+
+}
+
+footer p {
+    margin-top: 10px;
+}
+
+
+
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);  /* Browser Variations: */ 
+     -o-transform: scale(1.1);  /* Browser Variations: */ 
+ }
+ .social {
+     -webkit-transform: scale(0.8);    
+     -moz-transform: scale(0.8);  /* Browser Variations: */ 
+     -o-transform: scale(0.8);  /* Browser Variations: */ 
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+     color: white;
+ }
+
+
+ #social-fcc:hover {
+     color: darkgreen;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-fb:hover {
+     color: #29487d;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+ #made-by {
+    color: white;
+    font-size: 0.85rem;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: -15px;
+ }
+
+/* FIM FOOTER */
+
+/* MEDIA SCREENS */
+
+@media (max-width: 767px) {
+    h1.display-3 {
+        font-size: 3.5rem;
+    }
+
+    p.h3 {
+        font-size: 1.55rem;
+    }
+}
+
+@media (max-width: 480px ) {
+/*    body {
+        margin-top: 90px;
+    }
+*/
+    h1.display-3 {
+        font-size: 2.5rem;
+    }
+
+    p.h3 {
+        font-size: 1.35rem;
+    }
+
+    footer {
+        height:19%;
+    }
+
+}
