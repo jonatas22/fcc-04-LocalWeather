@@ -3,6 +3,10 @@ body {
     color: #4a4a4a;
 }
 
+#conteudo {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 .night {
     background: url("../imgs/rsz_sky_night.jpg") no-repeat center center fixed;
     color: white !important;
