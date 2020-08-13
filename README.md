@@ -3,6 +3,6 @@
 
 💻 Desafio do [FreeCodeCamp](freecodecamp.org) para desenvolver um site LocalWeather com consumo de API e localização.
 
-Link do desafio: [LocalWether](https://jonatasoc.github.io/fcc-04-LocalWeather/)
+Link do Resultado: [LocalWether](https://jonatasoc.github.io/fcc-04-LocalWeather/)
 
 
