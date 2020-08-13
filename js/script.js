@@ -5,6 +5,7 @@ $(document).ready(function() {
 	var temperatureActualFlag = true;
 	var fahrenheitValue = 0;
 	var horaAtual = new Date().getHours();
+	var apiURL = "https://fcc-weather-api.glitch.me/api/current?"
     console.log(horaAtual);
 
 	if (horaAtual < 6 || horaAtual > 17) { //É noite
@@ -22,8 +23,7 @@ $(document).ready(function() {
         		latitude = position.coords.latitude;
         		console.log(longitude + " " + latitude);
 
-        		$.getJSON("https://fcc-weather-api.glitch.me/api/current?lat=" + latitude + 
-        			"&lon=" + longitude, 
+        		$.getJSON(apiURL + "?lat=" + latitude + "&lon=" + longitude, 
         			function(result) {
         				$(".display-3").text("Local Weather App");
         				$("#city").text(result.name);
