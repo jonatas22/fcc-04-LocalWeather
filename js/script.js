@@ -23,7 +23,7 @@ $(document).ready(function() {
         		latitude = position.coords.latitude;
         		console.log(longitude + " " + latitude);
 
-        		$.getJSON(apiURL + "?lat=" + latitude + "&lon=" + longitude, 
+        		$.getJSON(apiURL + "lat=" + latitude + "&lon=" + longitude, 
         			function(result) {
         				$(".display-3").text("Local Weather App");
         				$("#city").text(result.name);
