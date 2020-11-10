@@ -1,7 +1,7 @@
 # FreeCodeCamp Challenge - LocalWeather
 ---
 
-💻 Challenge of [FreeCodeCamp](freecodecamp.org).
+💻 Challenge of [FreeCodeCamp](https://www.freecodecamp.org).
 
 Link: [LocalWether](https://jonatasoc.github.io/fcc-04-LocalWeather/)
 
